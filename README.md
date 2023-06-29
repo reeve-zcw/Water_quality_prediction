@@ -18,7 +18,7 @@ To visualize the changes in the loss function, model architecture, and other inf
 
 1. Navigate to the project directory using the terminal.
 2. Enter and execute the following code:
-```python
+```
 tensorboard --logdir="logs"
 ```
 You also can replace "logs" with a different name if desired, but make sure to update line 75 of `main.py` with the corresponding folder name.
